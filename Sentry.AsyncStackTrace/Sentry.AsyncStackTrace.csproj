@@ -12,12 +12,12 @@
     <RepositoryUrl>https://github.com/pengweiqhca/Sentry.AsyncStackTrace</RepositoryUrl>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
-    <Version>1.0.0-beta1</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Ben.Demystifier" Version="0.1.4" />
-    <PackageReference Include="Sentry" Version="1.1.3-beta3" />
+    <PackageReference Include="Sentry" Version="1.2.0" />
   </ItemGroup>
 
 </Project>
