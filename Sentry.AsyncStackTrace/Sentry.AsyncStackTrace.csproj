@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/pengweiqhca/Sentry.AsyncStackTrace</RepositoryUrl>
     <SignAssembly>true</SignAssembly>
     <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,16 +2,15 @@
 
 ## How To Use
 
-### Asp.net Core
+``` C#
+SentryOptions o = .....;
+
+o.AsyncStackTraceFactory();
+```
+
+### Asp.net Core can use this way 
 
 ``` C#
 services.AddTransient<ISentryStackTraceFactory, AsyncStackTraceFactory>();
 ```
 
-### Other
-
-``` C#
-SentryOptions o = .....;
-
-o.UseStackTraceFactory(new SentryStackTraceFactory(o));
-```
