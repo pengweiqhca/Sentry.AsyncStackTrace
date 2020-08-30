@@ -5,7 +5,7 @@
 ``` C#
 SentryOptions o = .....;
 
-o.AsyncStackTraceFactory();
+o.UseAsyncStackTraceFactory();
 ```
 
 ### Asp.net Core can use this way 
