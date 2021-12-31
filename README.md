@@ -1,3 +1,5 @@
+# [Sentry 3.0](https://github.com/getsentry/sentry-dotnet/blob/main/CHANGELOG.md#300-beta0) has integrated Ben.Demystifier.
+
 > Use Ben.Demystifier extension which improves the readability of async stack traces.
 
 ## How To Use
